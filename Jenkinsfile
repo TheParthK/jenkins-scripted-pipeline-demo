@@ -29,7 +29,7 @@ node {
         
         // Set tool locations
         javaHome = tool name: 'JDK-17', type: 'jdk'
-        mavenHome = tool name: 'Maven3.6.3', type: 'maven'
+        mavenHome = tool name: 'Maven-3.6.3', type: 'maven'
         
         // Set environment variables
         env.JAVA_HOME = javaHome
